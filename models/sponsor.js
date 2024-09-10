@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 
 const sponsorSchema = new mongoose.Schema({
-  _id: mongoose.Schema.Types.ObjectId,
   CmpnyName: { type: String, required: true },
   profilePic: { type: String, default: null },
   contact_person: {

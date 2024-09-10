@@ -29,7 +29,7 @@ const eventSchema = new mongoose.Schema({
     auctionDetails: auctionDetailsSchema
 });
 
-const userSchema = new mongoose.Schema({
+const eventHostSchema = new mongoose.Schema({
     name: { type: String, required: true },
     age: { type: Number, required: true },
     dob: { type: Date, required: true },
